@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 // 総和を返す関数
-int function(int x) {
+int function(int num) {
     static int sum = 0;
-    sum += x;
+    sum += num;
     return sum;
 }
 
